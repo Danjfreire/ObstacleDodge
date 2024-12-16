@@ -18,5 +18,4 @@ public class Mover : MonoBehaviour
         float zMovement = Input.GetAxis(VERTICAL_AXIS) * Time.deltaTime * moveSpeed;
         transform.Translate(xMovement, 0f, zMovement);
     }
-
 }
