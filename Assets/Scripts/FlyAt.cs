@@ -15,7 +15,6 @@ public class FlyAt : MonoBehaviour
     private void Start()
     {
         targetPosition = target.position;
-        Debug.Log("Got target");
     }
 
     private void Update()
@@ -32,7 +31,6 @@ public class FlyAt : MonoBehaviour
 
     public void Activate()
     {
-        Debug.Log("called");
         gameObject.SetActive(true);
     }
 }
